@@ -21,10 +21,8 @@ This is the Research part of the test:
 
 1) Here I used a pretty straight forward method to find the duplicated;
   - I pass in the list of strings to my findDuplicates() method
-  - I instantiate a Hashmap and attempt to create a new key/value pair with each string
-  - if the key already exists ('containsKey()') then I simply print it out.
-  
-  *bug where it's not adding items to the hashmap.
+  - I instantiate a Hashmap and iterate over the ArrayList while attempting to create a new key/value pair with the strings
+  - if the key (string) already exists ('containsKey()') then I simply print it out.
   
 2) set i=0 and j=str.length() and do a check to see if char(i)!=char(j) at any moment:
    - if so, set isPalindrome to FALSE and print it.
